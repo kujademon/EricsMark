@@ -1,9 +1,9 @@
 //
 //  SourceEditorCommand.swift
-//  Eric's Mark Extension
+//  Eric's Mark
 //
-//  Created by Richard Frank on 25/10/16.
-//  Copyright © 2016 Richard Frank. All rights reserved.
+//  Created by Peach on 18/10/24.
+//  Copyright © 2024 Richard Frank. All rights reserved.
 //
 
 import Foundation
@@ -12,7 +12,6 @@ import XcodeKit
 class SourceEditorCommand: NSObject, XCSourceEditorCommand {
     
     func perform(with invocation: XCSourceEditorCommandInvocation, completionHandler: @escaping (Error?) -> Void ) -> Void {
-        
         var lineClassMark:Int?
         var linePropertieMark:Int?
         var lineIBOutletMark:Int?
